@@ -132,18 +132,17 @@ print (Away_Team_Score7)
 print ("____________________________________________________")
 #____________________________________________________
 
+while True:
+    text = input("Type Done to see Statistics")
+    if text == "Done" :
+        print ("____________________________________________________")
+        print ("STATS")
+        break
+    else:
+        print ("Type Done to see Statistics")
 
-print ("Type Done to see Statistics")
-text = input()
-
-if (text == 'Done'):
-        print ('Stats')
-        print("Thank You")
-elif (text != 'Done'):
-    print ("Type Done to see Statistics")
 #____________________________________________________
 print ("____________________________________________________")
 #____________________________________________________
 
 #Stat
-s
