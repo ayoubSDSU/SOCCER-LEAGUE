@@ -15,6 +15,12 @@ print (Away_Team1)
 Away_Team_Score1 = int(input("Enter Away Team Score:"))
 print (Away_Team_Score1)
 
+Winner1 = [ Home_Team_Score1, Away_Team_Score1]
+if Home_Team_Score1 > Away_Team_Score1:
+    print ( "Home Team Wins")
+    if Home_Team_Score1 < Away_Team_Score1:
+        print ("Away Team Wins")
+    
 #____________________________________________________
 print ("____________________________________________________")
 
@@ -32,6 +38,12 @@ print (Away_Team2)
 
 Away_Team_Score2 = int(input("Enter Away Team Score:"))
 print (Away_Team_Score2)
+
+Winner2 = [ Home_Team_Score2, Away_Team_Score1]
+if Home_Team_Score1 > Away_Team_Score1:
+    print ( "Home Team Wins")
+    if Home_Team_Score1 < Away_Team_Score1:
+        print ("Away Team Wins")
 
 #____________________________________________________
 print ("____________________________________________________")
@@ -146,3 +158,15 @@ print ("____________________________________________________")
 #____________________________________________________
 
 #Stat
+#Stat1 =
+#Stat2 =
+#Stat2.2 =
+#Stat3 =
+#Stat3.3 =
+#Stat4 =
+#Stat4.4 =
+#Stat5 =
+#Stat5.5 =
+#Stat6 =
+#Stat6.6 =
+
