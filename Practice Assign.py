@@ -214,6 +214,7 @@ while True:
         print ("Away Team Average Differential Score",((Away_Team_Score1 + Away_Team_Score2 + Away_Team_Score3 + Away_Team_Score4 + Away_Team_Score5 + Away_Team_Score6 + Away_Team_Score7)-(Home_Team_Score1 + Home_Team_Score2 + Home_Team_Score3 + Home_Team_Score4 + Home_Team_Score5 + Home_Team_Score6 + Home_Team_Score7)/7))
         print ("Home Team Total Differential Score",(Home_Team_Score1 + Home_Team_Score2 + Home_Team_Score3 + Home_Team_Score4 + Home_Team_Score5 + Home_Team_Score6 + Home_Team_Score7)-(Away_Team_Score1 + Away_Team_Score2 + Away_Team_Score3 + Away_Team_Score4 + Away_Team_Score5 + Away_Team_Score6 + Away_Team_Score7))
         print ("Away Team Total Differential Score",(Away_Team_Score1 + Away_Team_Score2 + Away_Team_Score3 + Away_Team_Score4 + Away_Team_Score5 + Away_Team_Score6 + Away_Team_Score7)-(Home_Team_Score1 + Home_Team_Score2 + Home_Team_Score3 + Home_Team_Score4 + Home_Team_Score5 + Home_Team_Score6 + Home_Team_Score7))
+        print (("The Highest Score Belongs to Team:",(max( (Away_Team1, Away_Team_Score1), (Away_Team2, Away_Team_Score2), (Away_Team3, Away_Team_Score3), (Away_Team4, Away_Team_Score4), (Away_Team5, Away_Team_Score5), (Away_Team6, Away_Team_Score6), (Away_Team7, Away_Team_Score7), (Home_Team1, Home_Team_Score1), ( Home_Team2,Home_Team_Score2), (Home_Team3, Home_Team_Score3), (Home_Team4, Home_Team_Score4), (Home_Team5, Home_Team_Score5), (Home_Team6, Home_Team_Score6), (Home_Team7, Home_Team_Score7)))))
         break
     else:
         print ("Type Done to see Statistics")
@@ -221,3 +222,5 @@ while True:
 #____________________________________________________
 print ("____________________________________________________")
 #_________________________________________________
+
+
